@@ -1,0 +1,33 @@
+# Laboratorio de Sistemas Informaticos -Bitacora3
+# Vamos a levantar los servicios del servidor SSH y su entorno gráfico
+version: '3.8'
+services:
+  # Servidor especializado para la practica de seguridad
+  servidor_ssh:
+    image: linuxserver/openssh-server:latest
+    container_name: lab_ssh_servidor
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=EUROPE/Madrid
+      - USER_NAME=alumno
+      - USER_PASSWORD=sistemas_informaticos
+      - PASSWORD_ACCESS=true
+    ports:
+      - "2222:2222" # mapeamos el puerto
+    restart: unless-stopped
+
+  # Servidor con entorno grafico ligero
+  servidor_rdp:
+    image: linuxserver/webtop:ubuntu-xfce
+    container_name: lab_rdp_servidor
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=EUROPE/Madrid
+    ports:
+      - "3389:3389" # puerto para Escritorio remoto
+      - "3000:3000" # puerto para acceder via navegador
+    shm_size: "1gb"
+    restart: unless-stopped
+
