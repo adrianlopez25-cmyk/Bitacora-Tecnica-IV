@@ -17,5 +17,5 @@ El objetivo principal es la implementación y configuración de servicios de acc
 ## 5. Problemas Encontrados y Soluciones
 Mi principal problema ha sido a la hora de intentar acceder al ssh alumno@localhost -p 2222. y alssh alumno@127.0.0.1 -p 2222, ya que la primera era normal que no me dejara acceder, pero ni con la segunda me funcionaba.
 Finalmente pese a eliminar toda la informacion del docker en clases, he realizado de nuevo el ejercicio en mi pc personal y ahora si me ha dejado poder acceder a todo sin ningun problema.
-##6. Reflexion acotada
+## 6. Reflexion acotada
 Finalmente considero que ssh es un pilar clave sobre todo en eficiencia,seguridad y automatización.
