@@ -1,12 +1,12 @@
-#Bitácora Técnica IV. Laboratorio de Teletransportación Digital (SSH y RDP)
-##1.Objetivo principal
+# Bitácora Técnica IV. Laboratorio de Teletransportación Digital (SSH y RDP)
+## 1.Objetivo principal
 El objetivo principal es la implementación y configuración de servicios de acceso remoto (SSH y RDP/Web) sobre un entorno contenedorizado utilizando Docker.
-##2. Requisitos Previos
+## 2. Requisitos Previos
 -Docker Desktop instalado y en funcionamiento.
 -Docker Compose.
 -Cliente SSH (Terminal, PowerShell o Git Bash).
 -Navegador web o cliente RDP (MSTSC / Remmina).
-##3. Instalacion
+## 3. Instalacion
 1-He clonado el docker-compose que aparecia en el punto 6.
 2- He subido los contenedores de este archivo gracias a docker-compose up -d.
 3- luego he comprobado que los servicios estuvieran activo con: docker ps.
