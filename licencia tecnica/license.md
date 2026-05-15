@@ -5,10 +5,11 @@ Orquestación y despliegue de microservicios para garantizar el aislamiento.
 Apache 2.0	Link	
 Permite uso comercial y modificación sin costes recurrentes de licencia.  
 
-Apache Guacamole
+Apache Guacamole	
 Centralización de conexiones remotas vía web (puerto 8080/443).  
 
-Apache 2.0	Link	
+Apache 2.0	Link
+
 Garantiza transparencia del código y auditoría centralizada de accesos.  
 
 OpenSSH	
