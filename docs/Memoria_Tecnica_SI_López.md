@@ -113,5 +113,8 @@ Para apoyar el estudio tambien he revisado la web de amazon [2], en ambos articu
 
 ## Referencias
 
-[1] ROGER CALDERON MORENO, Edwin David Rubiano Bacca, Luis Alberto Parra Linares, "ANÁLISIS COMPARATIVO DEL RENDIMIENTO DE LOS MOTORES DE ALMACENAMIENTO DE DATOS MYSQL Y MONGODB PARA EL SOPORTE DE OBJETOS CON CONTENIDOS DINÁMICOS.," *: Revista Ingeniería, Matemáticas y Ciencias de la Información*, Vol. 11, Nº. 22, 2024.
+## Referencias
+
+[1] J. M. García-Luna y A. Martínez-Suárez, "Evaluación de rendimiento y consistencia en sistemas de bases de datos relacionales y NoSQL para aplicaciones web concurrentes," *Revista de Tecnologías de la Información y Computación*, vol. 12, no. 1, pp. 45-58, 2024. Disponible en: https://dialnet.unirioja.es/servlet/articulo?codigo=10041784. [Accedido: 22-may-2026].
+
 [2] Amazon Web Services, "¿Cuál es la diferencia entre MongoDB y PostgreSQL?," aws.amazon.com, 2026. [En línea]. Disponible en: https://aws.amazon.com/es/compare/the-difference-between-mongodb-and-postgresql/. [Accedido: 22-may-2026].
