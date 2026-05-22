@@ -65,7 +65,7 @@ prolongadas, cumpliendo así con los estándares de calidad de la ingeniería de
 ## 2. Estimación de Costes de Infraestructura y Operaciones (TCO)
 He realizado una investigacion sobre el coste general del coste del proyecto para poder conocer el coste total para nuestra empresa para calcular el margen de ganancias una vez se lo querramos ofrecer a nuestro clientes.
 
-A continuación, le presenoa el desglose mensual consolidado en la hoja de cálculo *Presupuesto_Cloud_Llamativo.xlsx*
+A continuación, le presento el desglose mensual consolidado en la hoja de cálculo *Presupuesto_Cloud_Llamativo.xlsx*
 
 | Categoría / Recurso | Concepto / Detalle | Métrica / Dedicación | Precio Unitario / Hora | Multiplicador | Subtotal Mensual |
 | :--- | :--- | :---: | :---: | :---: | :---: |
