@@ -77,7 +77,7 @@ Para cumplir con una previsión de crecimiento proactiva, se ha modelado la elas
 
 ## 3. Estrategia de Despliegue y Comunicación
 
-### 3.1. Flujo Técnico de Despliegue y Protocolo Seguro (CE 7.e)
+### 3.1. Flujo Técnico de Despliegue y Protocolo Seguro 
 Para mover nuestra aplicación desde el ordenador local (entorno de desarrollo) hasta el servidor en la nube (entorno de producción), utilizaremos un flujo automatizado basado en **Git** y el protocolo seguro **SFTP (Secure File Transfer Protocol)**. 
 
 Se descarta por completo el uso del protocolo FTP tradicional. La razón es que FTP transmite los usuarios, las contraseñas y los archivos en texto plano (sin cifrar). Si un atacante interceptara nuestra red, podría robarnos las credenciales fácilmente. 
@@ -87,7 +87,7 @@ El flujo exacto que seguirá nuestro código consta de tres pasos:
 2. **Conexión Segura (SFTP/SSH):** GitHub Actions (o el desarrollador de forma manual) abre una conexión directa con el servidor web utilizando **SFTP a través del puerto TCP 22**. Al usar este puerto, la conexión se realiza bajo el protocolo SSH.
 3. **Cifrado de Datos:** Toda la comunicación, contraseñas y archivos viajan completamente cifrados de extremo a extremo. Esto garantiza la **confidencialidad** (nadie puede leer el código mientras viaja por internet) y la **integridad** (nadie puede modificar el código a mitad de camino), logrando un despliegue 100% seguro.
 
-### 3.2. Gestión de Alertas y Mensajería entre Desarrolladores (CE 7.d)
+### 3.2. Gestión de Alertas y Mensajería entre Desarrolladores
 Para coordinarnos como equipo de desarrollo y enterarnos al instante si el servidor se cae o falla, integraremos la herramienta de mensajería corporativa **Slack**. 
 
 No podemos depender de que un desarrollador se dé cuenta de un fallo mirando el navegador de vez en cuando; el proceso debe ser automático:
@@ -96,7 +96,7 @@ No podemos depender de que un desarrollador se dé cuenta de un fallo mirando el
 * **Notificación en Slack:** Este mensaje llegará instantáneamente a nuestro canal de chat de equipo llamado `#alertas-servidor`. La alerta avisará a los programadores del equipo mediante una notificación push en el móvil o PC, indicando la hora exacta del fallo y el tipo de error. Así, el equipo podrá comunicarse por el mismo chat y solucionar la incidencia rápidamente.
 ---
 
-## 4. Justificación Científica (CE 7.f)
+## 4. Justificación Científica
 
 Para justificar la elección de la tecnología de persistencia de datos en mi proyecto, he realizado una investigación en buscadores académicos especializados (Dialnet / Google Académico). El objetivo fue contrastar el rendimiento y la seguridad de las bases de datos relacionales tradicionales frente a los sistemas NoSQL orientados a documentos en aplicaciones web modernas. 
 
@@ -110,8 +110,6 @@ Este estudio apoya directamente mi proyecto, ya que la aplicación maneja lógic
 Para apoyar el estudio tambien he revisado la web de amazon [2], en ambos articulos coinciden en que PostgreSQL es superior en cuento a prioridad absoluta en la fiablidad de las relaciones y las transacciones. Además de que destacan que PostgreSQL es ideal para sistemas financieros,registros complejos y plataformas de datos estructurados. Por ultimo indican que el uso de MongoDB seria  solo para datos caoticos o cambiantes en el tiempo, como el uso de un catalogo de productos con carateristicas muy diversas). Todo esto se puede ver reflejado en los diversos gráficos.
 
 ---
-
-## Referencias
 
 ## Referencias
 
