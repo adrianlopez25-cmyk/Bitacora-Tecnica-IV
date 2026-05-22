@@ -125,9 +125,11 @@ La conclusión principal del artículo científico seleccionado demuestra que, a
 
 Este estudio apoya directamente nuestro proyecto de DAW, ya que la aplicación maneja lógica de negocio crítica (como registros de usuarios, autenticación y transacciones) donde asegurar que los datos estén perfectamente estructurados, relacionados y sin errores es mucho más prioritario que la flexibilidad extrema que ofrecen los modelos NoSQL.
 
+Para apoyar el estudio tambien he revisado la web de amazon [2], en ambos articulos coinciden en que PostgreSQL es superior en cuento a prioridad absoluta en la fiablidad de las relaciones y las transacciones. Además de que destacan que PostgreSQL es ideal para sistemas financieros,registros complejos y plataformas de datos estructurados. Por ultimo indican que el uso de MongoDB seria  solo para datos caoticos o cambiantes en el tiempo, como el uso de un catalogo de productos con carateristicas muy diversas).
+
 ---
 
 ## Referencias
 
 [1] L. M. Ramos-Gómez y J. A. Herrera-Méndez, "Análisis comparativo de rendimiento e integridad de datos: PostgreSQL frente a MongoDB en el desarrollo de aplicaciones web de alta concurrencia," *Revista Ibérica de Sistemas e Tecnologias de Informação*, vol. 42, no. 2, pp. 89-102, 2023.
-
+[2] Amazon Web Services, "¿Cuál es la diferencia entre MongoDB y PostgreSQL?," aws.amazon.com, 2026. [En línea]. Disponible en: https://aws.amazon.com/es/compare/the-difference-between-mongodb-and-postgresql/. [Accedido: 22-may-2026].
