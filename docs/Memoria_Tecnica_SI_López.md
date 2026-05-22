@@ -24,6 +24,8 @@
 
 [Tema 3](#tema-3)
 
+[Tema 2](#tema-2)
+
 # Tema 1 {Analisis de necesidades}
 ## 1.1. Contexto y Problemática Actual
 La empresa objeto de esta intervención técnica, una startup emergente dedicada al desarrollo
