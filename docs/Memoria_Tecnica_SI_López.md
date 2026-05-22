@@ -65,27 +65,6 @@ prolongadas, cumpliendo así con los estándares de calidad de la ingeniería de
 ## 2. Estimación de Costes de Infraestructura y Operaciones (TCO)
 He realizado una investigacion sobre el coste general del coste del proyecto para poder conocer el coste total para nuestra empresa para calcular el margen de ganancias una vez se lo querramos ofrecer a nuestro clientes.
 
-A continuación, le presento el desglose mensual consolidado en la hoja de cálculo *Presupuesto_Cloud_Llamativo.xlsx*
-
-| Categoría / Recurso | Concepto / Detalle | Métrica / Dedicación | Precio Unitario / Hora | Multiplicador | Subtotal Mensual |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| **1. INFRAESTRUCTURA CLOUD** | | | | | |
-| Cómputo (Servidores) | Google Cloud Compute Engine (e2-medium) | 1 Instancia (2 vCPU, 4GB RAM) | 26,50 € | 1 | 26,50 € |
-| Cómputo (Contenedores) | AWS ECS / Fargate (Tareas App) | 2 Tareas activas 24/7 | 12,30 € | 2 | 24,60 € |
-| Almacenamiento SSD | DigitalOcean Block Storage | Coste por GB (100 GB total) | 0,10 € | 100 | 10,00 € |
-| Base de Datos Relacional | Amazon RDS PostgreSQL (db.t3.micro) | 1 Instancia Managed | 16,80 € | 1 | 16,80 € |
-| Almacenamiento Objetos | AWS S3 Standard (Media & Assets) | Coste por GB (250 GB total) | 0,023 € | 250 | 5,75 € |
-| Transferencia de Red | Tráfico saliente de datos (Egress) | Coste por GB transferido | 0,08 € | 500 | 40,00 € |
-| **2. COSTES OCULTOS (PERSONAL)**| | | | | |
-| Personal (SysAdmin / DevOps) | Mantenimiento, parches de seguridad y backups| Horas estimadas al mes | 35,00 € | 8 | 280,00 € |
-| Tiempo (Desarrollo / CI-CD) | Soporte y resolución de caídas/bugs | Horas estimadas al mes | 28,00 € | 6 | 168,00 € |
-| Gestión y Monitorización | Auditoría de costes y revisión de alertas/logs| Horas estimadas al mes | 22,00 € | 4 | 88,00 € |
-| | | | | **Subtotal Infraestructura**| **123,65 €** |
-| | | | | **Subtotal Costes Ocultos** | **536,00 €** |
-| | | | | **Base Imponible Total** | **659,65 €** |
-| | | | | **IVA (21%)** | **138,53 €** |
-| | | | | **TOTAL MENSUAL (TCO)** | **798,18 €** |
-
 ### 2.1. Análisis Avanzado de Escalabilidad y Elasticidad
 Para cumplir con una previsión de crecimiento proactiva, se ha modelado la elasticidad de la arquitectura frente a picos de demanda (ej. campañas comerciales o incrementos de tráfico del 300%):
 * **Escalado Horizontal de Cómputo:** Mediante políticas de escalado automático (*Auto Scaling*) en AWS ECS, si la CPU supera el 70%, se instanciarán hasta 4 tareas Fargate adicionales. El coste de cómputo pasaría de 24,60 € a 73,80 € de forma elástica, cobrándose únicamente por segundo de uso.
