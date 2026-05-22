@@ -110,5 +110,5 @@ Para apoyar el estudio tambien he revisado la web de amazon [2], en ambos articu
 
 ## Referencias
 
-[1] L. M. Ramos-Gómez y J. A. Herrera-Méndez, "Análisis comparativo de rendimiento e integridad de datos: PostgreSQL frente a MongoDB en el desarrollo de aplicaciones web de alta concurrencia," *Revista Ibérica de Sistemas e Tecnologias de Informação*, vol. 42, no. 2, pp. 89-102, 2023.
+[1] ROGER CALDERON MORENO, Edwin David Rubiano Bacca, Luis Alberto Parra Linares, "ANÁLISIS COMPARATIVO DEL RENDIMIENTO DE LOS MOTORES DE ALMACENAMIENTO DE DATOS MYSQL Y MONGODB PARA EL SOPORTE DE OBJETOS CON CONTENIDOS DINÁMICOS.," *: Revista Ingeniería, Matemáticas y Ciencias de la Información*, Vol. 11, Nº. 22, 2024.
 [2] Amazon Web Services, "¿Cuál es la diferencia entre MongoDB y PostgreSQL?," aws.amazon.com, 2026. [En línea]. Disponible en: https://aws.amazon.com/es/compare/the-difference-between-mongodb-and-postgresql/. [Accedido: 22-may-2026].
